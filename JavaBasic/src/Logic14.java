@@ -3,7 +3,15 @@
 public class Logic14 {
 
     public static void main (String [] args ){
+        int num = 9;
 
+        System.out.println(oddEven(num));
+
+    }
+    public static boolean oddEven (int num){
+        int Mod = num %2;
+        boolean even = ( Mod == 0);
+        return even;
     }
 }
 
