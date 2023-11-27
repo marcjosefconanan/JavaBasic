@@ -12,10 +12,12 @@ public class Ifelse15 {
     }
     public static void fizzBuzz (int num, int fizz, int buzz){
         if (num % fizz == 0 && num % buzz == 0){
-            System.out.println("FizzBuzz");
-        } else if (num % buzz == 0){
-            System.out.println("Buzz");
-        }else if (num % fizz == 0)
+        System.out.println("FizzBuzz");
+        } else
+        if (num % buzz == 0){
+        System.out.println("Buzz");
+        } else
+        if (num % fizz == 0)
         System.out.println("Fizz");
         else {
             System.out.println("It's not Fizz nor Buzz" + num);
